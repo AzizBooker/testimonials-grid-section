@@ -1,0 +1,28 @@
+section{
+
+    .testimonial{
+
+        &_1{
+            background-color: $moderateViolet;
+            color: $white;
+        }
+        &_2{
+            background-color: $veryDarkGrayishBlue;
+           color: $white;
+
+        }
+        &_3{
+            background-color: $white;
+            color: $veryDarkBlackishHue;
+        }
+        &_4{
+            background-color: $veryDarkBlackishHue;
+             color: $white;
+
+        }
+        &_5{
+            background-color: $white;
+            color: $veryDarkBlackishHue;
+        }
+    }
+}

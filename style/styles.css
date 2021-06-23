@@ -1,0 +1,30 @@
+body {
+  font-size: 0.8125rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+section .testimonial_1 {
+  background-color: #7541c8;
+  color: white;
+}
+
+section .testimonial_2 {
+  background-color: #48556a;
+  color: white;
+}
+
+section .testimonial_3 {
+  background-color: white;
+  color: #19212e;
+}
+
+section .testimonial_4 {
+  background-color: #19212e;
+  color: white;
+}
+
+section .testimonial_5 {
+  background-color: white;
+  color: #19212e;
+}
+/*# sourceMappingURL=styles.css.map */
