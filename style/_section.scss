@@ -1,23 +1,31 @@
 section{
-
+    .wrapper{
+        padding: 1rem 1rem;
+    }
     .testimonial{
-
+        
+        padding: 1rem 1rem;
+        border-radius: 1rem ;
+        box-shadow: -3px 4px 10px 1px rgb(206, 206, 206);
         &_1{
             background-color: $moderateViolet;
             color: $white;
+
         }
         &_2{
             background-color: $veryDarkGrayishBlue;
            color: $white;
+            
 
         }
         &_3{
             background-color: $white;
             color: $veryDarkBlackishHue;
-        }
+            
         &_4{
             background-color: $veryDarkBlackishHue;
              color: $white;
+          
 
         }
         &_5{
@@ -25,4 +33,5 @@ section{
             color: $veryDarkBlackishHue;
         }
     }
+}
 }

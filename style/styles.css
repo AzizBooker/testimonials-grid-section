@@ -1,6 +1,18 @@
 body {
   font-size: 0.8125rem;
   font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: gray;
+}
+
+section .wrapper {
+  padding: 1rem 1rem;
+}
+
+section .testimonial {
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: -3px 4px 10px 1px #cecece;
+          box-shadow: -3px 4px 10px 1px #cecece;
 }
 
 section .testimonial_1 {
@@ -18,12 +30,12 @@ section .testimonial_3 {
   color: #19212e;
 }
 
-section .testimonial_4 {
+section .testimonial_3_4 {
   background-color: #19212e;
   color: white;
 }
 
-section .testimonial_5 {
+section .testimonial_3_5 {
   background-color: white;
   color: #19212e;
 }
