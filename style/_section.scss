@@ -1,4 +1,5 @@
 section{
+ 
     .wrapper{
         padding: 1rem 1rem;
     }
@@ -7,6 +8,52 @@ section{
         padding: 1rem 1rem;
         border-radius: 1rem ;
         box-shadow: -3px 4px 10px 1px rgb(206, 206, 206);
+
+       
+        &_img{
+            border-radius: 10rem;
+            border-color: $veryDarkGrayishBlue;
+            border-style: double;
+            align-self: center;
+            padding-bottom: .1rem;
+            &_spec{
+            border-radius: 10rem;
+           border-color: $moderateViolet;
+            border-style: double;
+            align-self: center;
+            padding-bottom: .1rem; 
+            }
+           
+        }
+        &_heading{
+            display: flex;
+            margin-bottom: 2rem;
+            &_text{
+                display: flex;
+                flex-direction: column;
+                p{
+                    margin-bottom: .1rem;
+                    margin-left: 1rem;
+                    &:last-child{
+                        opacity: 50%;
+                    }
+                }
+            }
+
+        }
+        &_text{
+            h2{
+            font-family: $fontBarlow;
+            font-weight: 600;
+            line-height: 2rem;
+            margin-bottom: 1.5rem;
+            }
+            p{
+                font-family: $fontBarlow;
+                font-weight: 500;
+                opacity: 70%;
+            }
+        }
         &_1{
             background-color: $moderateViolet;
             color: $white;
@@ -21,6 +68,7 @@ section{
         &_3{
             background-color: $white;
             color: $veryDarkBlackishHue;
+        }
             
         &_4{
             background-color: $veryDarkBlackishHue;
@@ -33,5 +81,4 @@ section{
             color: $veryDarkBlackishHue;
         }
     }
-}
 }

@@ -1,7 +1,11 @@
 body {
+  height: 100vh;
   font-size: 0.8125rem;
   font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: gray;
+}
+
+.container {
+  width: 100%;
 }
 
 section .wrapper {
@@ -13,6 +17,65 @@ section .testimonial {
   border-radius: 1rem;
   -webkit-box-shadow: -3px 4px 10px 1px #cecece;
           box-shadow: -3px 4px 10px 1px #cecece;
+}
+
+section .testimonial_img {
+  border-radius: 10rem;
+  border-color: #48556a;
+  border-style: double;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-bottom: .1rem;
+}
+
+section .testimonial_img_spec {
+  border-radius: 10rem;
+  border-color: #7541c8;
+  border-style: double;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-bottom: .1rem;
+}
+
+section .testimonial_heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+section .testimonial_heading_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .testimonial_heading_text p {
+  margin-bottom: .1rem;
+  margin-left: 1rem;
+}
+
+section .testimonial_heading_text p:last-child {
+  opacity: 50%;
+}
+
+section .testimonial_text h2 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+section .testimonial_text p {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  opacity: 70%;
 }
 
 section .testimonial_1 {
@@ -30,12 +93,12 @@ section .testimonial_3 {
   color: #19212e;
 }
 
-section .testimonial_3_4 {
+section .testimonial_4 {
   background-color: #19212e;
   color: white;
 }
 
-section .testimonial_3_5 {
+section .testimonial_5 {
   background-color: white;
   color: #19212e;
 }
